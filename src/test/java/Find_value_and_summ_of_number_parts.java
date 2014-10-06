@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Find_value_and_summ_of_number_parts {
-
+public class Find_value_and_summ_of_number_parts
+{
     public static void main(String args[]) throws Exception
     {
         Scanner read = new Scanner(System.in);
-        System.out.println("Type number:");
+        System.out.println("Type number: ");
         String i = read.nextLine();
-        System.out.println("Your number is:" + i);
+        System.out.println("Your number is: " + i);
         int k = Integer.parseInt(i);
         int summa = k/100 + ((k-(k/100)*100)/10) + ((k- (k/100)*100) - ((((k- (k/100)*100)/10))*10));
         System.out.println("Summ = " + summa);
