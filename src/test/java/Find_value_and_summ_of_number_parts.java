@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class FirstTest {
-
+public class Find_value_and_summ_of_number_parts {
 
     public static void main(String args[]) throws Exception
     {
@@ -13,7 +12,4 @@ public class FirstTest {
         int summa = k/100 + ((k-(k/100)*100)/10) + ((k- (k/100)*100) - ((((k- (k/100)*100)/10))*10));
         System.out.println(summa);
     }
-
-
-
 }
