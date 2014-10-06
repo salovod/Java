@@ -10,6 +10,6 @@ public class Find_value_and_summ_of_number_parts {
         System.out.println("Your number is:" + i);
         int k = Integer.parseInt(i);
         int summa = k/100 + ((k-(k/100)*100)/10) + ((k- (k/100)*100) - ((((k- (k/100)*100)/10))*10));
-        System.out.println(summa);
+        System.out.println("Summ = " + summa);
     }
 }
