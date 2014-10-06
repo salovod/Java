@@ -23,12 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomBetween.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RandomBetween.java">
+      <file leaf-file-name="Discriminant.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Discriminant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.46735394" vertical-offset="0" max-vertical-offset="748">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +40,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
               <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Find_value_and_summ_of_number_parts.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Find_value_and_summ_of_number_parts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -59,6 +71,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/TestValues.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/RandomBetween.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Discriminant.java" />
       </list>
     </option>
   </component>
@@ -221,7 +234,7 @@
       <recent name="F:\JavaGit\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomBetween">
+  <component name="RunManager" selected="Application.Discriminant">
     <configuration default="false" name="Find_value_and_summ_of_number_parts.read_from_keyboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaGit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -279,6 +292,22 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Discriminant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Discriminant" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaGit" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -411,16 +440,18 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Find_value_and_summ_of_number_parts.read_from_keyboard" />
       <item index="1" class="java.lang.String" itemvalue="Application.Find_value_and_summ_of_number_parts" />
       <item index="2" class="java.lang.String" itemvalue="Application.RandomBetween" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Discriminant" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomBetween" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Find_value_and_summ_of_number_parts" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Find_value_and_summ_of_number_parts.read_from_keyboard" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Discriminant" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RandomBetween" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Find_value_and_summ_of_number_parts" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Find_value_and_summ_of_number_parts.read_from_keyboard" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -590,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Find_value_and_summ_of_number_parts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17075893" vertical-offset="0" max-vertical-offset="896">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19354838" vertical-offset="0" max-vertical-offset="527">
@@ -616,9 +639,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RandomBetween.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Find_value_and_summ_of_number_parts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Discriminant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46735394" vertical-offset="0" max-vertical-offset="748">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
