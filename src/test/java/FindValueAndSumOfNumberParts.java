@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Find_value_and_summ_of_number_parts
+public class FindValueAndSumOfNumberParts
 {
     public static void main(String args[]) throws Exception
     {
