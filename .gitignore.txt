@@ -1,0 +1,17 @@
+**/*/.sass-cache/*
+.sass-cache/*
+*/.sass-cache/*
+.idea/*
+linecharts/.idea/*
+.sublime/*
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+node_modules
+nbproject
+build
+/src/design/sass/.sass-cache
+/src/design/sass/.sass-cache/*
+bin
+vendor/*
+*.*~
