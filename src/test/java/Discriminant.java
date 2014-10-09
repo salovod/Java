@@ -26,5 +26,4 @@ public class Discriminant {
             System.out.println("Failed to compile");
         }
     }
-
 }
