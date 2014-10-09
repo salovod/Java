@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class IncreasingValue
-{
+public class IncreasingValue {
     public static void main(String args[]) throws Exception {
         Scanner read = new Scanner(System.in);
         System.out.println("Input a");
@@ -11,44 +10,30 @@ public class IncreasingValue
         System.out.println("Input c");
         int c = Integer.parseInt(read.nextLine());
 
-        if (a <= b && a <= c)
-        {
+        if (a <= b && a <= c) {
             System.out.println(a);
-            if (b <= c)
-            {
+            if (b <= c) {
                 System.out.println(b);
                 System.out.println(c);
-            }
-            else
-            {
+            } else {
                 System.out.println(c);
                 System.out.println(b);
             }
-        }
-        else if (b <= a && b <= c)
-        {
+        } else if (b <= a && b <= c) {
             System.out.println(b);
-            if (a <=c)
-            {
+            if (a <= c) {
                 System.out.println(a);
                 System.out.println(c);
-            }
-            else
-            {
+            } else {
                 System.out.println(c);
                 System.out.println(a);
             }
-        }
-        else if (c <= a && c <=b )
-        {
+        } else if (c <= a && c <= b) {
             System.out.println(c);
-            if (a <= b)
-            {
+            if (a <= b) {
                 System.out.println(a);
                 System.out.println(b);
-            }
-            else
-            {
+            } else {
                 System.out.println(b);
                 System.out.println(a);
             }
